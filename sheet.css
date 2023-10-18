@@ -1,0 +1,37 @@
+.dim {
+    height: 50px ;
+    width: 50px ;
+    position: absolute;
+    background-color: rgb(226, 136, 19);
+}
+
+
+.resizer {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: black;
+    z-index: 2;
+}
+.resizer.hg {
+    top: -1px;
+    left: -1px;
+    cursor: nw-resize;
+}
+
+.resizer.hd {
+    top: -1px;
+    right: -1px;
+    cursor: ne-resize;
+}
+.resizer.bg {
+    bottom: -1px;
+    left: -1px;
+    cursor: sw-resize;
+}
+.resizer.bd {
+    bottom: -1px;
+    right: -1px;
+    cursor: se-resize;
+}

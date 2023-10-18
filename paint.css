@@ -1,0 +1,71 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 20 px);
+  grid-gap: 10px;
+  grid-template-rows: repeat(2, 20 px);
+}
+#mainButton1{
+  width: 20px;
+  height: 20px;
+}
+#mainButton2{
+  width: 20px;
+  height: 20px;
+}
+#mainButton3{
+  width: 20px;
+  height: 20px;
+}
+#mainButton4{
+  width: 20px;
+  height: 20px;
+}
+#mainButtonclear{
+  width: 20px;
+  height: 20px;
+}
+#red{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+#blue{
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
+#green{
+  width: 20px;
+  height: 20px;
+  background-color: green;
+}
+#nofill {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
+#save{
+  width: 20px;
+  height: 20px;
+}
+canvas {
+  border: 1px solid black;
+  width: 560px;
+  height: 500px;
+}
+.dim {
+  height: 50px ;
+  width: 50px ;
+  position: absolute;
+  background-color: rgb(226, 136, 19);
+}
+
+
+.resizer {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: black;
+  z-index: 2;
+}
